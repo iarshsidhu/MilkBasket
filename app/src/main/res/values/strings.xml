@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Milk Basket</string>
+    <string name="list_of_milk">List of Milk</string>
+    <string name="cow_milk">Cow Milk</string>
+    <string name="buffalo_milk">Buffalo Milk</string>
+    <string name="packet_milk">Packet Milk</string>
+</resources>
