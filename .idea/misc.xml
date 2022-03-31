@@ -10,9 +10,11 @@
         <entry key="..\:/AndroidStudioProjects(Kotlin)/MilkBasket/app/src/main/res/drawable/ic_cowmilk_background.xml" value="0.257" />
         <entry key="..\:/AndroidStudioProjects(Kotlin)/MilkBasket/app/src/main/res/font/font.xml" value="0.30364583333333334" />
         <entry key="..\:/AndroidStudioProjects(Kotlin)/MilkBasket/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects(Kotlin)/MilkBasket/app/src/main/res/layout/activity_my_cart.xml" value="0.2" />
         <entry key="..\:/AndroidStudioProjects(Kotlin)/MilkBasket/app/src/main/res/layout/bottomsheet_fragment.xml" value="0.2734375" />
         <entry key="..\:/AndroidStudioProjects(Kotlin)/MilkBasket/app/src/main/res/layout/cart_items.xml" value="0.2734375" />
         <entry key="..\:/AndroidStudioProjects(Kotlin)/MilkBasket/app/src/main/res/layout/custom_dialog.xml" value="0.22" />
+        <entry key="..\:/AndroidStudioProjects(Kotlin)/MilkBasket/app/src/main/res/xml/network_security_config.xml" value="0.15896739130434784" />
       </map>
     </option>
   </component>

@@ -8,7 +8,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
-class MilkAdapter(private val list: MutableList<MilkData>): RecyclerView.Adapter<MilkAdapter.MyViewHolder>() {
+class MilkAdapter(private val context: Context,private val list: List<MilkData>): RecyclerView.Adapter<MilkAdapter.MyViewHolder>() {
 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
@@ -17,14 +17,14 @@ class MilkAdapter(private val list: MutableList<MilkData>): RecyclerView.Adapter
         return view
     }
 
-    fun updateList(milkData: MilkData){
-        list.add(milkData)
-        notifyItemInserted(list.size - 1)
-    }
+//    fun updateList(milkData: MilkData){
+//        list.add(milkData)
+//        notifyItemInserted(list.size - 1)
+//    }
 
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
         val milkData = list[position]
-        holder.textView.text = milkData.text
+        holder.textView.text = milkData.name
     }
 
     override fun getItemCount(): Int {
@@ -33,6 +33,6 @@ class MilkAdapter(private val list: MutableList<MilkData>): RecyclerView.Adapter
 
     class MyViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
         val textView: TextView =itemView.findViewById(R.id.headText)
-        val imageView: ImageView = itemView.findViewById(R.id.imageView)
+//        val imageView: ImageView = itemView.findViewById(R.id.imageView)
     }
 }
